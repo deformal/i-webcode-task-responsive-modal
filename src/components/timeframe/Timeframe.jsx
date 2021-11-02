@@ -11,7 +11,7 @@ export default function Timeframe() {
         "6Year",
         "7Year"
     ])
-    const [selected, select] = useState("Tier1")
+    const [selected, select] = useState("1Day")
 
     const onselectHandle = (e) => (value) => {
         select(e)
