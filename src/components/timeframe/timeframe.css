@@ -1,0 +1,31 @@
+.timeframebody > header > h3 {
+    font-family: var(--secondary-font-family);
+    margin: 1em, 0, 0, 0;
+}
+
+.timeframebody > .days {
+    display: flex;
+    gap: 1em;
+    overflow: auto;
+}
+
+.timeframebody > .days > .notselected {
+    font-family: var(--secondary-font-family);
+    margin: 0;
+    background-color: rgba(216, 215, 215, 0.6);
+    padding: 1.2em 2em;
+    margin-bottom: 1em;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.timeframebody > .days > .selected {
+    font-family: var(--secondary-font-family);
+    margin: 0;
+    background-color: rgba(243, 217, 71, 0.6);
+    padding: 1.2em 2em;
+    margin-bottom: 1em;
+    border-radius: 50px;
+    border: 1px solid orange;
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.togglebody {
+    border-radius: 50px;
+    padding: 0.2em;
+    position: relative;
+}
+
+.togglecircle {
+    border-radius: 100%;
+    background-color: white;
+    position: absolute;
+    margin-right: 2px;
+    cursor: pointer;
+}

@@ -1,0 +1,35 @@
+.details > header {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+    justify-content: center;
+}
+
+.details > header > h4 {
+    font-family: var(--secondary-font-family);
+    text-align: center;
+    cursor: pointer;
+}
+
+.details > header > img {
+    height: 1em;
+}
+
+.details > main > .detailsmainhead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details > main > .detailsmainhead > h2 {
+    font-family: var(--secondary-font-family);
+}
+
+.details > main > .detailsmainhead > .percentages {
+    color: orange;
+}
+
+.details > main > .list > ul > li {
+    font-family: var(--secondary-font-family);
+    color: rgb(173, 173, 173);
+}

@@ -1,0 +1,89 @@
+.calculatorbody {
+    background-color: snow;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: grid;
+    place-items: center;
+}
+
+.calcin {
+    background-color: snow;
+    border-radius: 5px;
+    width: 30%;
+    height: 70%;
+    overflow: auto;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.calcin > header > .headersection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.calcin > header > .headersection > img {
+    height: 1em;
+}
+
+.calcin > header > section > h1 {
+    margin: 0;
+    font-family: var(--secondary-font-family);
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 1500px) {
+    .calcin {
+        background-color: snow;
+        border-radius: 5px;
+        width: 50%;
+        height: 80%;
+        padding: 1em;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .calcin {
+        background-color: snow;
+        border-radius: 5px;
+        width: 60%;
+        height: 80%;
+        padding: 1em;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .calcin {
+        background-color: snow;
+        border-radius: 5px;
+        width: 60%;
+        min-width: 400px;
+        height: 80%;
+        padding: 1em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .calcin {
+        background-color: snow;
+        border-radius: 5px;
+        width: 300px;
+        height: 80%;
+        padding: 1em;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .calcin {
+        background-color: snow;
+        border-radius: 5px;
+        width: 250px;
+        height: 80%;
+        padding: 1em;
+    }
+}

@@ -1,0 +1,43 @@
+.accapybody > header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accapybody > header > h3 {
+    font-family: var(--secondary-font-family);
+    margin: 1em, 0, 0, 0;
+}
+
+.accapybody > .tiers {
+    display: flex;
+    gap: 1em;
+    overflow: auto;
+}
+
+.accapybody > h5 {
+    font-family: var(--secondary-font-family);
+    color: rgb(170, 170, 170);
+    margin: 0.5em 0;
+}
+
+.accapybody > .tiers > .notselected {
+    font-family: var(--secondary-font-family);
+    margin: 0;
+    background-color: rgba(216, 215, 215, 0.6);
+    padding: 1.2em 2em;
+    margin-bottom: 1em;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.accapybody > .tiers > .selected {
+    font-family: var(--secondary-font-family);
+    margin: 0;
+    background-color: rgba(243, 217, 71, 0.6);
+    padding: 1.2em 2em;
+    margin-bottom: 1em;
+    border-radius: 50px;
+    border: 1px solid orange;
+    cursor: pointer;
+}

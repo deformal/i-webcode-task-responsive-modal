@@ -1,0 +1,68 @@
+.maininputbody {
+    position: relative;
+}
+
+.maininputbody > .a {
+    display: flex;
+    justify-content: space-between;
+}
+
+.maininputbody > .a > div {
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+}
+
+.maininputbody > .a > div > .cake {
+    display: flex;
+    align-items: center;
+
+    gap: 0.2em;
+}
+.maininputbody > .a > div > .cake > h3 {
+    font-family: var(--secondary-font-family);
+    color: rgb(136, 136, 136);
+}
+
+.maininputbody > .a > div > h6 {
+    font-family: var(--main-font-family);
+    font-weight: bold;
+    font-size: 1em;
+    margin: 0;
+}
+.maininputbody > .inputbox1 {
+    width: 98%;
+}
+
+.maininputbody > .inputbox1 > h4 {
+    font-family: var(--secondary-font-family);
+    text-align: right;
+    margin: 0.5em 0 0 0;
+    color: rgb(126, 125, 125);
+}
+
+.maininputbody > .inputbox1 > input {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid rgb(210, 210, 210);
+    height: 2em;
+    font-size: 2em;
+    text-align: right;
+    font-family: var(--secondary-font-family);
+}
+
+.maininputbody > .options {
+    display: flex;
+    gap: 2em;
+    margin-top: 0.5em;
+    align-items: center;
+    margin-left: 1em;
+}
+
+.maininputbody > .options > .optionval {
+    font-family: var(--secondary-font-family);
+    background-color: rgba(200, 200, 200, 0.2);
+    padding: 0.5em;
+    border-radius: 10px;
+    margin: 0;
+}

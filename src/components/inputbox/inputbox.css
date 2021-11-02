@@ -1,0 +1,47 @@
+.inputboxbody {
+    position: relative;
+}
+
+.inputboxbody > .a > h4 {
+    font-family: var(--secondary-font-family);
+    text-align: right;
+    margin: 0;
+    color: rgb(185, 185, 185);
+    text-align: right;
+}
+.inputboxbody > .inputbox1 {
+    width: 98%;
+}
+
+.inputboxbody > .inputbox1 > input {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid rgb(210, 210, 210);
+    height: 2em;
+    font-size: 2em;
+    text-align: right;
+    font-family: var(--secondary-font-family);
+}
+
+.inputboxbody > .options {
+    display: flex;
+    gap: 2em;
+    margin-top: 0.5em;
+    align-items: center;
+    margin-left: 1em;
+}
+
+.inputboxbody > .options > .optionval {
+    font-family: var(--secondary-font-family);
+    background-color: rgba(200, 200, 200, 0.2);
+    padding: 0.5em;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.inputboxfooter > h4 {
+    font-family: var(--secondary-font-family);
+    text-align: right;
+    margin: 0.5em 0.5em 0 0;
+    color: rgb(185, 185, 185);
+}
